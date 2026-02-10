@@ -32,12 +32,12 @@ function Header() {
             <Link to={'/wishlist'} className='m-4 text-decoration-none text-light fw-bold'>
             <FontAwesomeIcon icon={faHeart} className='text-danger me-1'/>
             Wishlist
-            <Badge pill bg='secondary'>
+            <Badge className='ms-1' pill bg='secondary'>
             {userWishList.length}
             </Badge>
             </Link>
             <Link to={'/cart'} className='ms-4 text-decoration-none text-light fw-bold'><FontAwesomeIcon icon={faCartPlus} className='text-success me-1'/>Cart
-            <Badge pill bg='secondary'>
+            <Badge className='ms-1' pill bg='secondary'>
              {userCart.length}
             </Badge></Link>
             

@@ -65,7 +65,7 @@ state.productReducer
               </div>
             ))
           :
-          <p>product not found</p>
+          <p className='fw-bold fs-5'>product not found</p>
         }
         <div className="text-center fw-bold my-3">
           <button onClick={navigateprev} className='btn'><FontAwesomeIcon icon={faBackward} /></button>
